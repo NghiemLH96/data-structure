@@ -26,7 +26,7 @@ const App: React.FC = () => {
       label: 'Admin',
       icon: <MailOutlined />,
       children: [
-        { key: '5', label: 'Question manager', onClick: () => { navigate("admin/question-manager") } },
+        { key: '5', label: 'Question manager', onClick: () => { navigate("admin/question-manager/list") } },
         { key: '6', label: 'Option 6' },
         { key: '7', label: 'Option 7' },
         { key: '8', label: 'Option 8' },

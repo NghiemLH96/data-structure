@@ -86,7 +86,6 @@ const QuesTable: React.FC = () => {
             setQuesData(JSON.parse(mockQues));
         }
     },[])
-    console.log(quesData);
 return <Table<DataType> columns={columns} dataSource={quesData} />
 };
 
